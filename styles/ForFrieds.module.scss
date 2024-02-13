@@ -1,0 +1,57 @@
+
+
+.Main{
+  width: 1920px;
+  height: 1080px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.YesNo{
+  width: 600px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+
+  button:nth-child(2){
+    color: red;
+    width: 200px;
+    height: 100px;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: -20px;
+  }
+
+  button:nth-child(3){
+    color: red;
+    width: 200px;
+    height: 100px;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+  }
+
+  button:hover{
+    color: red;
+    width: 200px;
+    height: 100px;
+    background: none;
+    border: 1px solid black;
+    background: gray;
+
+
+  }
+
+}

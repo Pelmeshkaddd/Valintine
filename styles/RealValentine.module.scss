@@ -1,0 +1,24 @@
+
+
+.Main{
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+
+  div{
+    width: 500px;
+    height: 500px;
+    margin-left:auto;
+    margin-right: auto;
+    background: url("../public/img.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    Color: white;
+  }
+
+}
